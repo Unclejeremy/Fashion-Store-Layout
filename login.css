@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+form{
+    width: 350px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    box-shadow: 4px 4px 15px gray;
+    padding: 20px 0;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: lightseagreen;
+}
+
+div {
+    width: 300px;
+    /* border: 1px solid red; */
+    margin: 15px auto;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: skyblue;
+    border: none;
+    font-size: 17px;
+}
+
+input[type=text], input[type=password] {
+    height: 45px;
+    padding-left: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 5px;
+}
